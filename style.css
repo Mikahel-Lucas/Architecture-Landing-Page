@@ -1,0 +1,124 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    background-color: #303030;
+    height: 20em;
+}
+
+.main-title {
+    font-family: 'Inter';
+    font-size: 4em;
+    font-weight: 500;
+    color: #FFFFFF;
+    padding-top: 15vh;
+    padding-left: 5vw;
+}
+
+.header-paragraph {
+    font-family: 'Inter';
+    font-size: 2em;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: 5%;
+}   
+
+.data-container {
+    height: 180px;
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.data-span {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 3em;
+    color: black
+}
+
+.data-paragraph {
+    font-family: 'Inter';
+    font-weight: 500;
+    text-align: center;
+}
+
+.about-us-container {
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-container {
+    font-family: 'Inter';
+    margin: 2em;
+    justify-content: space-evenly;
+}
+
+.description-container h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 5%
+}
+
+.description-container p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.showcase-img {
+    margin: 2em
+}
+
+form {
+    background-color: #303030;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-evenly;  
+}
+
+.form-control {
+    width: 508px;
+    height: 72px;
+    border-radius: 10px;
+}
+form ::placeholder {
+
+    text-indent: 40px;
+    font-family: Raleway;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #0000004D;
+}
+
+.contact-btn {
+    background-color: #C07212;
+    border-radius: 10px;
+    width: 290px;
+    height: 74px;
+    color: white;
+    font-family: 'Raleway';
+    font-size: 30px;
+    border: none;
+    cursor: pointer
+}
+
+.contact-btn:hover {
+    filter: brightness(130%)
+}
+
+.form-paragraph {
+    font-family: 'Inter';
+    color: white;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+}
